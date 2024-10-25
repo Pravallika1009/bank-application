@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.signup-box {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #a9a9a9;
+}
+
+.signup-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.signup-btn:hover {
+    background-color: #007bbf;
+}
+
+.signin-link {
+    margin-top: 10px;
+}
+
+.signin-link a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+
+
+
+
+/* login page styling */
+.logo {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.login-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin: 8px 0;
+}
+
+
+.login-btn:hover {
+    background-color: #007bbf;
+}
+
+.separator {
+    margin: 15px 0;
+    position: relative;
+}
+
+.separator span {
+    background: white;
+    padding: 0 10px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.signup {
+    margin-top: 10px;
+}
+
+.signup a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+
+/* Home page styling */
+.navbar {
+    background-color: #0095f6;
+    color: white;
+    padding: 15px 0;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Forgot Password Styling */
+.signup-box {
+    padding: 20px; /* Ensure padding is consistent */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.signin-link {
+    margin-top: 15px;
+}
+
+.signin-link a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.signin-link a:hover {
+    text-decoration: underline;
+}
+#fin{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+#fin:focus{
+    border-color: #007bff;
+    outline: none;
+}
