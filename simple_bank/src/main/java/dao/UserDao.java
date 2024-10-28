@@ -148,14 +148,5 @@ public class UserDao {
 		}
 		return user;
 	}
-//	public static void main(String[] args) {
-//		try {
-//			UserDao obj = new UserDao();
-//			obj.creatUserTable();
-//			System.out.println("user table created");
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//	}
 
 }
