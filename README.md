@@ -1,2 +1,2 @@
 # bank-application
-A Bank Application where using J2EE 
+A Bank Application using J2EE 
